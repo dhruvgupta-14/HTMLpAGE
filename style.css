@@ -587,8 +587,6 @@ body{
   .contentBox3{
     width: 23%;
     display: grid;
-    grid-template-rows: 1fr 0.4fr 1fr;
-    gap:0.1rem;
   }
 
   .contentBox3img{
