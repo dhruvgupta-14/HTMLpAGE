@@ -439,13 +439,11 @@ body{
     border-radius: 4px;
   }
   .contentBox3{
-    width: 23%;
-    display: grid;
     grid-template-rows: 1fr 0.2fr 1fr;
   }
   .contentBox3img{
     width: 100%;
-   aspect-ratio: 1/1.32;
+   aspect-ratio: 1/1.3;
     border-radius: 4px;
     
   }
@@ -479,13 +477,11 @@ body{
     border-radius: 4px;
   }
   .contentBox3{
-    width: 23%;
-    display: grid;
     grid-template-rows: 1fr 0.2fr 1fr;
   }
   .contentBox3img{
     width: 100%;
-   aspect-ratio: 1/1.4;
+   aspect-ratio: 1/1.3;
     border-radius: 4px;
     
   }
@@ -584,9 +580,7 @@ body{
     top:4px;
   }
   .contentBox3{
-    width: 23%;
-    display: grid;
-    grid-template-rows: 1fr 0.37fr 1fr;
+    grid-template-rows: 1fr 0.355fr 1fr;
     gap:0.1rem;
   }
 
@@ -599,73 +593,20 @@ body{
   }
   .contentBox3imga{
     width: 100%;
-    height: 80%;
+    height: 89%;
     border-radius: 5px;
     position: relative;
    
   }
   .contentBox3imgb{
     width: 100%;
-    height: 80%;
-    border-radius: 5px;
-    position: relative;
-    top:5px;
-  }
-}
-@media(max-width:400px){
-
-
-} 
-/* @media (min-width: 370px) and (max-width: 378px) {
-  .contentBox1img{
-    width: 100%;
-   aspect-ratio: 1/0.6;
-   border-radius: 4px;
-  }
-
-
-  .contentBox2img{
-    width: 100%;
-   height: 80%;
+    height: 85%;
     border-radius: 5px;
     position: relative;
   
   }
-  .contentBox2imga2{
-    width: 100%;
-   height: 80%;
-    border-radius: 5px;
-    position: relative;
-    top:4px;
-  }
-  .contentBox3{
-    width: 23%;
-    display: grid;
-    grid-template-rows: 1fr 0.4fr 1fr;
-    gap:0.1rem;
-  }
+}
 
-  .contentBox3img{
-    width: 100%;
-    height: 80%;
-    border-radius: 5px;
-    position: relative;
- 
-  }
-  .contentBox3imga{
-    width: 100%;
-    height: 80%;
-    border-radius: 5px;
-    position: relative;
-    top:10px;
-  }
-  .contentBox3imgb{
-    width: 100%;
-    height: 80%;
-    border-radius: 5px;
-    position: relative;
-    top:5px;
-  } }*/
 
 .impDates1{
   width: 100vw;
