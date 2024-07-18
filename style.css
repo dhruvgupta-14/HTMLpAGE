@@ -548,10 +548,10 @@ body{
    
    }
    .contentBox1 h1{
-    margin-top: -28px;
     color: aqua; 
      font-weight: bold;
-    font-size: 0.8rem;
+     margin-top: -9px;
+    font-size: 0.7rem; 
     padding: 0.3rem 0.3rem;
   
   }
@@ -587,6 +587,7 @@ body{
   .contentBox3{
     width: 23%;
     display: grid;
+    grid-template-rows: 1fr 0.37fr 1fr;
   }
 
   .contentBox3img{
@@ -611,14 +612,6 @@ body{
     top:5px;
   }
 }
-@media screen and (max-width:400px){
-
-   .contentBox1 h1{
-    margin-top: -9px;
-    font-size: 0.7rem; 
-  }
-  
-
 
 }
 .impDates1{
